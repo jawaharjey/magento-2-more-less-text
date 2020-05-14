@@ -1,0 +1,24 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/**
+ * Product view template
+ *
+ * @var $block Magento\Framework\View\Element\Template
+ */
+?>
+<script>
+    require([
+        'jquery',
+        'readmorejs'
+    ], function($, readmore){
+        $(function() {
+            $('.read-more').readMore();
+        });
+    });
+</script>
+
+
